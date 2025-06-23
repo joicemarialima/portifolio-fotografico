@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc); /* Degradê de roxo para azul */
     color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro semitransparente */
     color: #fff;
     padding: 20px 0;
 }
@@ -77,7 +77,7 @@ section.gallery h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro semitransparente */
     color: #fff;
     text-align: center;
     padding: 20px 0;
